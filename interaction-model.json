@@ -1,0 +1,72 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "work time tracker",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "StartTimer",
+                    "slots": [],
+                    "samples": [
+                        "I am about to start work",
+                        "I am starting working",
+                        "I have started working",
+                        "start a new timer",
+                        "new timer",
+                        "begin",
+                        "start",
+                        "start a timer"
+                    ]
+                },
+                {
+                    "name": "StopTimer",
+                    "slots": [],
+                    "samples": [
+                        "I've stopped working",
+                        "I have finished working",
+                        "I'm done working",
+                        "I'm done",
+                        "finish working",
+                        "stop the timer",
+                        "end timer",
+                        "finish work",
+                        "stop timer"
+                    ]
+                },
+                {
+                    "name": "RequestTime",
+                    "slots": [],
+                    "samples": [
+                        "how long have I been working",
+                        "hours I worked",
+                        "total hours spent today",
+                        "how many hours did I work today",
+                        "how long did I work for",
+                        "how much time did I spend working",
+                        "how long"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
